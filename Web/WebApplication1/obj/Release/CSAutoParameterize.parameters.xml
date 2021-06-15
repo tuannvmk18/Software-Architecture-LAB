@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="strCon-Web.config Connection String" description="strCon Connection String used in web.config by the application to access the database." defaultValue="SERVER=den1.mssql7.gear.host;DATABASE=helloworld3;USER=helloworld3;PASSWORD=Kh26M?_E7yxJ" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\MinhTuan\\source\\repos\\WebApplication1\\WebApplication1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='strCon']/@connectionString" />
+  </parameter>
+  <parameter name="helloworld3ConnectionString-Web.config Connection String" description="helloworld3ConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=den1.mssql7.gear.host;Initial Catalog=helloworld3;User ID=helloworld3;Password=Kh26M?_E7yxJ" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\MinhTuan\\source\\repos\\WebApplication1\\WebApplication1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='helloworld3ConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
